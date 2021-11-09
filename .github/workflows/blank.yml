@@ -30,7 +30,7 @@ jobs:
       #tar -xf goof-1.0.1.tar.gz    
       - name: Getting file
         run: |
-          curl -L "https://github.com/snyk/goof/archive/refs/tags/1.0.1.tar.gz"
+          curl -Lo "https://github.com/snyk/goof/archive/refs/tags/1.0.1.tar.gz" 
           ls -l
-          npm install
-          npm run
+        #  npm install
+        #  npm run
