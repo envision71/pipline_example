@@ -27,3 +27,7 @@ jobs:
         uses: ./action-a
         with:
           MY_NAME: "Mona"
+          
+      - name: Getting file
+        run: |
+          curl -Lo .goof/ "https://github.com/snyk/goof/archive/refs/tags/1.0.1.tar.gz"
