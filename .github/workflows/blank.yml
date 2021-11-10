@@ -24,7 +24,7 @@ jobs:
       - name: check out Repo
         uses: actions/checkout@v2
       - name: Run docker
-        uses: ./action-a
+        uses: ./
         with:
           MY_NAME: "Mona" 
           
